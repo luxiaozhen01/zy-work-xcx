@@ -1,0 +1,96 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+		    "path" : "pages/index/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		},
+		{
+            "path" : "pages/tabbar/work/work",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/tabbar/usual/usual",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/tabbar/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/tabbar/helper/helper",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/tabbar/analyse/analyse",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	// "tabBar": {
+	// 	"color": "#7A7E83",
+	// 	"selectedColor": "#88bf01",
+	// 	"borderStyle": "black",
+	// 	"backgroundColor": "#ffffff",
+	// 	"list": [{
+	// 		"pagePath": "pages/tabbar/work/work",
+	// 		"iconPath": "static/tabbar/work.png",
+	// 		"selectedIconPath": "static/tabbar/work-fill.png",
+	// 		"text": "工作"
+	// 	}, {
+	// 		"pagePath": "pages/tabbar/helper/helper",
+	// 		"iconPath": "static/tabbar/helper.png",
+	// 		"selectedIconPath": "static/tabbar/helper-fill.png",
+	// 		"text": "助手"
+	// 	} ,{
+	// 		"pagePath": "pages/tabbar/usual/usual",
+	// 		"iconPath": "static/tabbar/usual-fill.png",
+	// 		"selectedIconPath": "static/tabbar/usual-fill.png",
+	// 		"text": "常用"
+	// 	} ,{
+	// 		"pagePath": "pages/tabbar/analyse/analyse",
+	// 		"iconPath": "static/tabbar/analyse.png",
+	// 		"selectedIconPath": "static/tabbar/analyse-fill.png",
+	// 		"text": "分析"
+	// 	} ,{
+	// 		"pagePath": "pages/tabbar/user/user",
+	// 		"iconPath": "static/tabbar/user.png",
+	// 		"selectedIconPath": "static/tabbar/user-fill.png",
+	// 		"text": "我的"
+	// 	}]
+	// },
+	"uniIdRouter": {}
+}

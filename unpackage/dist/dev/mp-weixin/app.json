@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tabbar/work/work",
+    "pages/tabbar/usual/usual",
+    "pages/tabbar/user/user",
+    "pages/tabbar/helper/helper",
+    "pages/tabbar/analyse/analyse"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

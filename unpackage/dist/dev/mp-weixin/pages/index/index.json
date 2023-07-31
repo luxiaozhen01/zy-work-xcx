@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "my-tab-bar": "/components/my-tabBar/my-tabBar",
+    "work": "/pages/tabbar/work/work",
+    "helper": "/pages/tabbar/helper/helper",
+    "usual": "/pages/tabbar/usual/usual",
+    "analyse": "/pages/tabbar/analyse/analyse",
+    "user": "/pages/tabbar/user/user"
+  }
+}
